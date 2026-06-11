@@ -1,407 +1,134 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="ScoutBridge — Analyse professionnelle de votre profil football. Recevez votre rapport en 48h." />
-  <title>ScoutBridge — Analyse de Profil Football</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
+SB ScoutBridge
+FR EN ES
+Analyse de profil football
+Ton profil football
+analysé par des
+professionnels.
+Envoie tes vidéos. Reçois une analyse complète de ta recrutabilité en 48h — avec tes points forts, tes axes d'amélioration et des recommandations concrètes.
 
-  <!-- HEADER -->
-  <header class="header">
-    <div class="header-inner">
-      <div class="logo">
-        <span class="logo-sb">SB</span>
-        <span class="logo-name">ScoutBridge</span>
-      </div>
-      <nav class="lang-switcher" aria-label="Langue">
-        <button class="lang-btn active" data-lang="fr">FR</button>
-        <button class="lang-btn" data-lang="en">EN</button>
-        <button class="lang-btn" data-lang="es">ES</button>
-      </nav>
-    </div>
-  </header>
+Voir les offres — dès 19€ Comment ça marche
+✓ Livré en 48h ✓ Remboursé si refusé ✓ Aucun contrat garanti
+#SB-001 ⚠️ Exemple fictif
+Joueur · Ailier G · 19 ans
+Administratif
+88
+Présentation
+72
+Visibilité
+55
+Verdict Profil optimisable — 2 axes clés identifiés
+Pour qui ?
+ScoutBridge est fait pour toi si…
+⚽
+Tu as entre 15 et 23 ans et tu joues en club amateur ou semi-professionnel.
 
-  <!-- HERO -->
-  <section class="hero">
-    <div class="container hero-inner">
-      <div class="hero-text">
-        <div class="hero-eyebrow" data-i18n="hero.eyebrow">Analyse de profil football</div>
-        <h1 class="hero-title">
-          <span data-i18n="hero.title1">Ton profil football</span><br/>
-          <span class="hero-accent" data-i18n="hero.title2">analysé par des</span><br/>
-          <span data-i18n="hero.title3">professionnels.</span>
-        </h1>
-        <p class="hero-sub" data-i18n="hero.sub">
-          Envoie tes vidéos. Reçois une analyse complète de ta recrutabilité en 48h — avec tes points forts, tes axes d'amélioration et des recommandations concrètes.
-        </p>
-        <div class="hero-ctas">
-          <a href="#offres" class="btn btn-primary" data-i18n="hero.cta_primary">Voir les offres — dès 19€</a>
-          <a href="#comment" class="btn btn-ghost" data-i18n="hero.cta_ghost">Comment ça marche</a>
-        </div>
-        <div class="hero-trust">
-          <span class="trust-item" data-i18n="hero.trust1">✓ Livré en 48h</span>
-          <span class="trust-item" data-i18n="hero.trust2">✓ Remboursé si refusé</span>
-          <span class="trust-item" data-i18n="hero.trust3">✓ Aucun contrat garanti</span>
-        </div>
-      </div>
-      <div class="hero-visual">
-        <div class="report-preview-mini">
-          <div class="rpm-header">
-            <span class="rpm-id mono">#SB-001</span>
-            <span class="rpm-tag rpm-tag-example" data-i18n="hero.sample">⚠️ Exemple fictif</span>
-          </div>
-          <div class="rpm-name" data-i18n="hero.rpm_name">Joueur · Ailier G · 19 ans</div>
-          <div class="rpm-scores">
-            <div class="rpm-score-row">
-              <span data-i18n="hero.score_admin">Administratif</span>
-              <div class="rpm-bar"><div class="rpm-fill" style="width:88%"></div></div>
-              <span class="mono rpm-val">88</span>
-            </div>
-            <div class="rpm-score-row">
-              <span data-i18n="hero.score_pres">Présentation</span>
-              <div class="rpm-bar"><div class="rpm-fill" style="width:72%"></div></div>
-              <span class="mono rpm-val">72</span>
-            </div>
-            <div class="rpm-score-row">
-              <span data-i18n="hero.score_vis">Visibilité</span>
-              <div class="rpm-bar"><div class="rpm-fill" style="width:55%"></div></div>
-              <span class="mono rpm-val">55</span>
-            </div>
-          </div>
-          <div class="rpm-verdict">
-            <span class="rpm-verdict-label" data-i18n="hero.verdict_label">Verdict</span>
-            <span class="rpm-verdict-text" data-i18n="hero.verdict_text">Profil optimisable — 2 axes clés identifiés</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+🔍
+Tu cherches un club, une détection ou simplement à être vu par les bons recruteurs.
 
-  <!-- POUR QUI -->
-  <section class="forqui">
-    <div class="container">
-      <div class="section-label" data-i18n="forqui.label">Pour qui ?</div>
-      <h2 class="section-title" data-i18n="forqui.title">ScoutBridge est fait pour toi si…</h2>
-      <div class="forqui-grid">
-        <div class="forqui-card">
-          <div class="forqui-icon">⚽</div>
-          <p data-i18n="forqui.p1">Tu as entre <strong>15 et 23 ans</strong> et tu joues en club amateur ou semi-professionnel.</p>
-        </div>
-        <div class="forqui-card">
-          <div class="forqui-icon">🔍</div>
-          <p data-i18n="forqui.p2">Tu cherches un <strong>club, une détection</strong> ou simplement à être vu par les bons recruteurs.</p>
-        </div>
-        <div class="forqui-card">
-          <div class="forqui-icon">📄</div>
-          <p data-i18n="forqui.p3">Tu ne sais pas <strong>comment te présenter</strong> de manière professionnelle à un recruteur.</p>
-        </div>
-        <div class="forqui-card">
-          <div class="forqui-icon">👨‍👩‍👦</div>
-          <p data-i18n="forqui.p4">Tu es un <strong>parent</strong> qui veut comprendre où en est son enfant et quelles sont les prochaines étapes.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+📄
+Tu ne sais pas comment te présenter de manière professionnelle à un recruteur.
 
-  <!-- COMMENT CA MARCHE -->
-  <section class="how" id="comment">
-    <div class="container">
-      <div class="section-label" data-i18n="how.label">Le processus</div>
-      <h2 class="section-title" data-i18n="how.title">Simple. Rapide. Concret.</h2>
-      <div class="steps">
-        <div class="step">
-          <div class="step-num">01</div>
-          <div class="step-body">
-            <h3 class="step-title" data-i18n="how.s1_title">Tu soumets ton profil</h3>
-            <p class="step-desc" data-i18n="how.s1_desc">Via notre formulaire sécurisé : tes vidéos de match ou d'entraînement, tes informations de base, ta situation administrative. 5 minutes maximum.</p>
-          </div>
-        </div>
-        <div class="step-connector"></div>
-        <div class="step">
-          <div class="step-num">02</div>
-          <div class="step-body">
-            <h3 class="step-title" data-i18n="how.s2_title">On analyse ton profil</h3>
-            <p class="step-desc" data-i18n="how.s2_desc">Notre équipe évalue ta recrutabilité sur 3 axes : administratif (passeport, disponibilité), présentation (qualité vidéo, dossier), visibilité (profil en ligne, facilité de contact).</p>
-          </div>
-        </div>
-        <div class="step-connector"></div>
-        <div class="step">
-          <div class="step-num">03</div>
-          <div class="step-body">
-            <h3 class="step-title" data-i18n="how.s3_title">Tu reçois ton rapport en 48h</h3>
-            <p class="step-desc" data-i18n="how.s3_desc">Un document complet avec tes scores, tes points forts, tes axes d'amélioration et des recommandations concrètes. Avec le Profile : ton dossier est également diffusé aux recruteurs ciblés.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+👨‍👩‍👦
+Tu es un parent qui veut comprendre où en est son enfant et quelles sont les prochaines étapes.
 
-  <!-- OFFRES -->
-  <section class="offers" id="offres">
-    <div class="container">
-      <div class="section-label" data-i18n="offers.label">Les offres</div>
-      <h2 class="section-title" data-i18n="offers.title">Choisis ton niveau d'analyse.</h2>
-      <div class="offers-grid">
+Le processus
+Simple. Rapide. Concret.
+01
+Tu soumets ton profil
+Via notre formulaire sécurisé : tes vidéos de match ou d'entraînement, tes informations de base, ta situation administrative. 5 minutes maximum.
 
-        <div class="offer-card">
-          <div class="offer-header">
-            <div class="offer-tag" data-i18n="offers.check_tag">Commencer ici</div>
-            <h3 class="offer-name">ScoutBridge Check</h3>
-            <div class="offer-price">
-              <span class="offer-amount">19</span>
-              <span class="offer-currency">€</span>
-            </div>
-            <p class="offer-desc" data-i18n="offers.check_desc">Tu reçois ton analyse complète de recrutabilité. Tu sais exactement où tu en es et quoi améliorer.</p>
-          </div>
-          <ul class="offer-features">
-            <li data-i18n="offers.check_f1">✓ Recruitability Index™ sur 3 axes</li>
-            <li data-i18n="offers.check_f2">✓ Points forts identifiés</li>
-            <li data-i18n="offers.check_f3">✓ Axes d'amélioration prioritaires</li>
-            <li data-i18n="offers.check_f4">✓ Recommandations concrètes</li>
-            <li data-i18n="offers.check_f5">✓ Livré en 48h par email</li>
-          </ul>
-          <a href="https://buy.stripe.com/4gM3cv2zPevf64Z6qZeIw00" class="btn btn-secondary offer-cta" data-i18n="offers.check_cta">Obtenir mon analyse — 19€</a>
-          <p class="offer-guarantee" data-i18n="offers.guarantee">Remboursé si ton dossier ne passe pas nos critères</p>
-        </div>
+02
+On analyse ton profil
+Notre équipe évalue ta recrutabilité sur 3 axes : administratif (passeport, disponibilité), présentation (qualité vidéo, dossier), visibilité (profil en ligne, facilité de contact).
 
-        <div class="offer-card offer-featured">
-          <div class="offer-popular" data-i18n="offers.popular">Recommandé</div>
-          <div class="offer-header">
-            <div class="offer-tag" data-i18n="offers.profile_tag">Analyse + Diffusion</div>
-            <h3 class="offer-name">ScoutBridge Profile</h3>
-            <div class="offer-price">
-              <span class="offer-amount">49</span>
-              <span class="offer-currency">€</span>
-            </div>
-            <p class="offer-desc" data-i18n="offers.profile_desc">Tout ce qui est dans Check, plus ton dossier optimisé transmis aux recruteurs pertinents et un rapport de campagne détaillé.</p>
-          </div>
-          <ul class="offer-features">
-            <li data-i18n="offers.profile_f1">✓ Tout ce qui est dans Check</li>
-            <li data-i18n="offers.profile_f2">✓ Dossier Format ScoutBridge™ optimisé</li>
-            <li data-i18n="offers.profile_f3">✓ Diffusion aux recruteurs ciblés</li>
-            <li data-i18n="offers.profile_f4">✓ Rapport de Campagne (qui a vu ton dossier)</li>
-            <li data-i18n="offers.profile_f5">✓ Recommandations de diffusion personnalisées</li>
-          </ul>
-          <a href="https://buy.stripe.com/eVqfZh5M10EpeBv4iReIw01" class="btn btn-primary offer-cta" data-i18n="offers.profile_cta">Obtenir mon Profile — 49€</a>
-          <p class="offer-guarantee" data-i18n="offers.guarantee">Remboursé si ton dossier ne passe pas nos critères</p>
-        </div>
+03
+Tu reçois ton rapport en 48h
+Un document complet avec tes scores, tes points forts, tes axes d'amélioration et des recommandations concrètes. Avec le Profile : ton dossier professionnel prêt à envoyer, ta liste de clubs cibles et ton plan de contact.
 
-      </div>
+Les offres
+Choisis ton niveau d'analyse.
+Commencer ici
+ScoutBridge Check
+19 €
+Tu reçois ton analyse complète de recrutabilité. Tu sais exactement où tu en es et quoi améliorer.
 
-      <div class="disclaimer">
-        <p data-i18n="offers.disclaimer">ScoutBridge est un service d'analyse et de présentation. Nous ne sommes pas agents de joueurs. Aucun contrat, essai ou signature n'est garanti. Nous analysons ta recrutabilité et diffusons ton profil — le reste dépend des recruteurs.</p>
-      </div>
-    </div>
-  </section>
+✓ Recruitability Index™ sur 3 axes
+✓ Points forts identifiés
+✓ Axes d'amélioration prioritaires
+✓ Recommandations concrètes
+✓ Livré en 48h par email
+Obtenir mon analyse — 19€
+Remboursé si ton dossier ne passe pas nos critères
 
-  <!-- APERÇU DU RAPPORT -->
-  <section class="rapport" id="rapport">
-    <div class="container">
-      <div class="section-label" data-i18n="rapport.label">Exemple de livrable</div>
-      <h2 class="section-title" data-i18n="rapport.title">Ce que tu reçois concrètement.</h2>
-      <p class="rapport-sub" data-i18n="rapport.sub">Voici un exemple représentatif du rapport ScoutBridge. Les noms et données sont fictifs.</p>
+Recommandé
+Dossier complet
+ScoutBridge Profile
+49 €
+Tout ce qui est dans Check, plus ton dossier professionnel prêt à envoyer aux clubs, ta liste de clubs cibles et ton plan de contact.
 
-      <div class="rapport-card">
-        <!-- En-tête rapport -->
-        <div class="rapport-header">
-          <div class="rapport-header-left">
-            <span class="rapport-id mono">#SB-042</span>
-            <div class="rapport-player">
-              <span class="rapport-player-name" data-i18n="rapport.player_name">Joueur — Milieu défensif</span>
-              <span class="rapport-player-info" data-i18n="rapport.player_info">20 ans · National 2 · France</span>
-            </div>
-          </div>
-          <div class="rapport-global-score">
-            <span class="rapport-score-num">74</span>
-            <span class="rapport-score-label" data-i18n="rapport.global">/100</span>
-          </div>
-        </div>
+✓ Tout ce qui est dans Check
+✓ Dossier professionnel Format ScoutBridge™ (PDF prêt à envoyer)
+✓ Liste personnalisée de 15 clubs cibles adaptés à ton profil
+✓ Plan de contact étape par étape (qui, quand, comment)
+✓ Modèle de message de présentation aux clubs
+Obtenir mon Profile — 49€
+Remboursé si ton dossier ne passe pas nos critères
 
-        <!-- Scores détaillés -->
-        <div class="rapport-section">
-          <div class="rapport-section-title" data-i18n="rapport.scores_title">Recruitability Index™</div>
-          <div class="rapport-axes">
-            <div class="rapport-axis">
-              <div class="rapport-axis-header">
-                <span class="rapport-axis-name" data-i18n="rapport.axis_admin">Administratif</span>
-                <span class="rapport-axis-score score-high mono">88/100</span>
-              </div>
-              <div class="rapport-bar"><div class="rapport-fill rfill-high" style="width:88%"></div></div>
-              <p class="rapport-axis-detail" data-i18n="rapport.axis_admin_detail">Double nationalité (FR/MA). Passeport valide. Contrat expirant en juin. Statut clairement établi.</p>
-            </div>
-            <div class="rapport-axis">
-              <div class="rapport-axis-header">
-                <span class="rapport-axis-name" data-i18n="rapport.axis_pres">Présentation</span>
-                <span class="rapport-axis-score score-mid mono">72/100</span>
-              </div>
-              <div class="rapport-bar"><div class="rapport-fill rfill-mid" style="width:72%"></div></div>
-              <p class="rapport-axis-detail" data-i18n="rapport.axis_pres_detail">3 vidéos soumises. Qualité correcte mais angles de caméra limités. Le dossier PDF manque de stats défensives clés.</p>
-            </div>
-            <div class="rapport-axis">
-              <div class="rapport-axis-header">
-                <span class="rapport-axis-name" data-i18n="rapport.axis_vis">Visibilité</span>
-                <span class="rapport-axis-score score-low mono">62/100</span>
-              </div>
-              <div class="rapport-bar"><div class="rapport-fill rfill-low" style="width:62%"></div></div>
-              <p class="rapport-axis-detail" data-i18n="rapport.axis_vis_detail">Aucun profil Instagram professionnel. Email de contact absent sur les plateformes. Difficile à retrouver par un recruteur externe.</p>
-            </div>
-          </div>
-        </div>
+ScoutBridge est un service d'analyse et de présentation. Nous ne sommes pas agents de joueurs. Aucun contrat, essai ou signature n'est garanti. Nous analysons ta recrutabilité et te donnons les outils pour te présenter aux clubs — le reste dépend des recruteurs.
 
-        <!-- Points forts / Axes -->
-        <div class="rapport-two-col">
-          <div class="rapport-col">
-            <div class="rapport-section-title rapport-green" data-i18n="rapport.strengths_title">✓ Points forts</div>
-            <ul class="rapport-list">
-              <li data-i18n="rapport.s1">Profil administratif solide — recrutement immédiat possible</li>
-              <li data-i18n="rapport.s2">Double nationalité : ouvre deux marchés (France + Maroc)</li>
-              <li data-i18n="rapport.s3">Niveau National 2 — crédible pour Ligue 2 et National</li>
-            </ul>
-          </div>
-          <div class="rapport-col">
-            <div class="rapport-section-title rapport-gold" data-i18n="rapport.improve_title">→ Axes d'amélioration</div>
-            <ul class="rapport-list">
-              <li data-i18n="rapport.i1">Refaire 2 clips vidéo avec caméra en hauteur (angle tactique)</li>
-              <li data-i18n="rapport.i2">Créer un profil Instagram professionnel avec 3 posts de match</li>
-              <li data-i18n="rapport.i3">Ajouter les stats défensives (duels gagnés, interceptions) au dossier</li>
-            </ul>
-          </div>
-        </div>
+Exemple de livrable
+Ce que tu reçois concrètement.
+Voici un exemple représentatif du rapport ScoutBridge. Les noms et données sont fictifs.
 
-        <!-- Recommandations -->
-        <div class="rapport-section rapport-reco">
-          <div class="rapport-section-title" data-i18n="rapport.reco_title">📋 Recommandations ScoutBridge</div>
-          <div class="rapport-reco-list">
-            <div class="rapport-reco-item">
-              <span class="reco-num mono">01</span>
-              <p data-i18n="rapport.reco1">Cibler en priorité les clubs de <strong>National et National 2</strong> en France et <strong>D1B en Belgique</strong> — correspondance géographique et administrative optimale.</p>
-            </div>
-            <div class="rapport-reco-item">
-              <span class="reco-num mono">02</span>
-              <p data-i18n="rapport.reco2">Avant toute diffusion, <strong>refaire la vidéo de présentation</strong> avec les conseils ci-dessus. Cela augmenterait ton score de présentation de ~15 points.</p>
-            </div>
-            <div class="rapport-reco-item">
-              <span class="reco-num mono">03</span>
-              <p data-i18n="rapport.reco3">Le mercato d'été (juin–août) est la <strong>meilleure fenêtre</strong> pour ce profil. Agir maintenant pour être diffusé au bon moment.</p>
-            </div>
-          </div>
-        </div>
+#SB-042
+Joueur — Milieu défensif 20 ans · National 2 · France
+74 /100
+Recruitability Index™
+Administratif 88/100
+Double nationalité (FR/MA). Passeport valide. Contrat expirant en juin. Statut clairement établi.
 
-        <div class="rapport-footer-note" data-i18n="rapport.disclaimer">
-          Ce rapport est un exemple fictif à titre illustratif. Votre rapport réel sera personnalisé selon votre profil, vos vidéos et votre situation.
-        </div>
-      </div>
-    </div>
-  </section>
+Présentation 72/100
+3 vidéos soumises. Qualité correcte mais angles de caméra limités. Le dossier PDF manque de stats défensives clés.
 
-  <!-- FAQ -->
-  <section class="faq">
-    <div class="container">
-      <div class="section-label" data-i18n="faq.label">Questions fréquentes</div>
-      <h2 class="section-title" data-i18n="faq.title">Ce que tu veux savoir.</h2>
-      <div class="faq-list">
+Visibilité 62/100
+Aucun profil Instagram professionnel. Email de contact absent sur les plateformes. Difficile à retrouver par un recruteur externe.
 
-        <div class="faq-item">
-          <button class="faq-q" aria-expanded="false">
-            <span data-i18n="faq.q1">Est-ce que vous me garantissez un contrat ou une détection ?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-a" hidden>
-            <p data-i18n="faq.a1">Non, et nous ne le prétendons jamais. ScoutBridge analyse ta recrutabilité et diffuse ton profil aux recruteurs pertinents. Ce qu'un recruteur décide ensuite ne dépend pas de nous. Nous te donnons les meilleures chances d'être vu — pas une promesse de résultat.</p>
-          </div>
-        </div>
+✓ Points forts
+Profil administratif solide — recrutement immédiat possible
+Double nationalité : ouvre deux marchés (France + Maroc)
+Niveau National 2 — crédible pour Ligue 2 et National
+→ Axes d'amélioration
+Refaire 2 clips vidéo avec caméra en hauteur (angle tactique)
+Créer un profil Instagram professionnel avec 3 posts de match
+Ajouter les stats défensives (duels gagnés, interceptions) au dossier
+📋 Recommandations ScoutBridge
+01
+Cibler en priorité les clubs de National et National 2 en France et D1B en Belgique — correspondance géographique et administrative optimale.
 
-        <div class="faq-item">
-          <button class="faq-q" aria-expanded="false">
-            <span data-i18n="faq.q2">Que se passe-t-il si mon dossier ne passe pas vos critères ?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-a" hidden>
-            <p data-i18n="faq.a2">Tu es remboursé intégralement. Nous évaluons d'abord si ton profil répond aux critères minimum (niveau de compétition, qualité vidéo). Si ce n'est pas le cas, tu reçois un message expliquant pourquoi, et ton paiement est restitué sans conditions.</p>
-          </div>
-        </div>
+02
+Avant toute diffusion, refaire la vidéo de présentation avec les conseils ci-dessus. Cela augmenterait ton score de présentation de ~15 points.
 
-        <div class="faq-item">
-          <button class="faq-q" aria-expanded="false">
-            <span data-i18n="faq.q3">Quel type de vidéos dois-je envoyer ?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-a" hidden>
-            <p data-i18n="faq.a3">Des vidéos de match ou d'entraînement filmées depuis les tribunes ou en hauteur. La qualité de tournage n'a pas besoin d'être parfaite — ce qui compte, c'est de voir tes actions (passes, dribbles, duels, déplacements). 2 à 4 clips de 30 à 90 secondes sont suffisants.</p>
-          </div>
-        </div>
+03
+Le mercato d'été (juin–août) est la meilleure fenêtre pour ce profil. Agir maintenant pour être diffusé au bon moment.
 
-        <div class="faq-item">
-          <button class="faq-q" aria-expanded="false">
-            <span data-i18n="faq.q4">À qui est diffusé mon profil avec l'offre Profile ?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-a" hidden>
-            <p data-i18n="faq.a4">Nous ciblons les recruteurs, éducateurs et directeurs sportifs de clubs correspondant à ton profil : poste, âge, niveau, zone géographique, statut administratif. Nous travaillons avec des clubs de Ligue 2, National, National 2, et leurs équivalents en Belgique, Portugal et Espagne. Ton dossier est anonymisé (#SB-XXX) dans notre Gazette — les recruteurs nous contactent pour obtenir tes coordonnées.</p>
-          </div>
-        </div>
+Ce rapport est un exemple fictif à titre illustratif. Votre rapport réel sera personnalisé selon votre profil, vos vidéos et votre situation.
+Questions fréquentes
+Ce que tu veux savoir.
+Est-ce que vous me garantissez un contrat ou une détection ? +
+Que se passe-t-il si mon dossier ne passe pas vos critères ? +
+Quel type de vidéos dois-je envoyer ? +
+Qu'est-ce que je reçois exactement avec l'offre Profile ? +
+Combien de temps après le paiement est-ce que je reçois mon rapport ? +
+Est-ce que ScoutBridge est une agence de joueurs ? +
+Prêt à commencer ?
+La CM commence le 11 juin.
+Sois prêt.
+Pas de promesse de contrat. Juste une analyse honnête de ta recrutabilité et des recommandations concrètes.
 
-        <div class="faq-item">
-          <button class="faq-q" aria-expanded="false">
-            <span data-i18n="faq.q5">Combien de temps après le paiement est-ce que je reçois mon rapport ?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-a" hidden>
-            <p data-i18n="faq.a5">48 heures après réception de toutes tes informations et vidéos. Si ton dossier est incomplet, nous te contactons pour les éléments manquants avant de démarrer l'analyse.</p>
-          </div>
-        </div>
+Check — 19€ Profile complet — 49€
+Remboursé si ton dossier ne passe pas nos critères · Livraison 48h · Aucun engagement
 
-        <div class="faq-item">
-          <button class="faq-q" aria-expanded="false">
-            <span data-i18n="faq.q6">Est-ce que ScoutBridge est une agence de joueurs ?</span>
-            <span class="faq-icon">+</span>
-          </button>
-          <div class="faq-a" hidden>
-            <p data-i18n="faq.a6">Non. ScoutBridge est un service d'analyse et de visibilité. Nous n'intervenons pas dans les négociations contractuelles, nous ne représentons pas les joueurs et nous ne percevons aucune commission sur les transferts. Nous aidons les joueurs à être vus — c'est tout.</p>
-          </div>
-        </div>
+SB ScoutBridge
+Service d'analyse et de visibilité football. Pas une agence de joueurs. Aucun contrat ou placement garanti.
 
-      </div>
-    </div>
-  </section>
-
-  <!-- CTA FINAL -->
-  <section class="final-cta" id="contact">
-    <div class="container final-cta-inner">
-      <div class="section-label" data-i18n="cta.label">Prêt à commencer ?</div>
-      <h2 class="final-cta-title" data-i18n="cta.title">La CM commence le 11 juin.<br/>Sois prêt.</h2>
-      <p class="final-cta-sub" data-i18n="cta.sub">Pas de promesse de contrat. Juste une analyse honnête de ta recrutabilité et des recommandations concrètes.</p>
-      <div class="final-cta-btns">
-        <a href="https://buy.stripe.com/4gM3cv2zPevf64Z6qZeIw00" class="btn btn-secondary btn-large" data-i18n="cta.btn_check">Check — 19€</a>
-        <a href="https://buy.stripe.com/eVqfZh5M10EpeBv4iReIw01" class="btn btn-gold btn-large" data-i18n="cta.btn_profile">Profile + Diffusion — 49€</a>
-      </div>
-      <p class="final-cta-note" data-i18n="cta.note">Remboursé si ton dossier ne passe pas nos critères · Livraison 48h · Aucun engagement</p>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container footer-inner">
-      <div class="logo">
-        <span class="logo-sb">SB</span>
-        <span class="logo-name">ScoutBridge</span>
-      </div>
-      <p class="footer-legal" data-i18n="footer.legal">Service d'analyse et de visibilité football. Pas une agence de joueurs. Aucun contrat ou placement garanti.</p>
-      <div class="footer-links">
-        <a href="#" data-i18n="footer.cgu">CGU</a>
-        <a href="#" data-i18n="footer.privacy">Confidentialité</a>
-        <a href="#" data-i18n="footer.contact">Contact</a>
-      </div>
-    </div>
-  </footer>
-
-  <script src="i18n.js"></script>
-  <script src="main.js"></script>
-</body>
-</html>
+CGU Confidentialité Contact
