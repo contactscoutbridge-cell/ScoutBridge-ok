@@ -1,4 +1,4 @@
-/**
+/*
  * ScoutBridge — Internationalisation
  * Pour ajouter une langue : ajouter une clé dans TRANSLATIONS
  * et un bouton .lang-btn dans le HTML.
